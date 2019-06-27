@@ -15,3 +15,9 @@ npm run start
 // or
 npm run start:watch
 ```
+
+![ScreenShot](/screenshots/WebScraper.png?raw=true)
+
+![ScreenShot](/screenshots/Excel.png?raw=true)
+
+![ScreenShot](/screenshots/images.png?raw=true)
