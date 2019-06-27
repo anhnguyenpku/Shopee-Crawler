@@ -1,0 +1,9 @@
+# Libs
+node_modules
+
+# Dev mode
+.env
+svn-configuration.json
+
+# Editor
+.vscode
