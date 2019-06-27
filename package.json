@@ -2,7 +2,7 @@
   "name": "crawler-shopee",
   "version": "1.0.0",
   "description": "",
-  "main": "dist-backend/index.js",
+  "main": "index.ts",
   "nodemonConfig": {
     "ignore": [
       "**/*.test.ts",
@@ -17,28 +17,21 @@
     "ext": "ts"
   },
   "scripts": {
-    "start": "node -r ts-node/register ./src/index.ts",
-    "start:watch": "nodemon",
-    "copy-file": "copyfiles -u 1 src/**/.env ./dist-backend",
-    "build": "tsc && npm run copy-file"
+    "start": "node -r ts-node/register index.ts",
+    "start:watch": "nodemon"
   },
-  "author": "",
+  "author": "Minh Long",
   "license": "ISC",
   "devDependencies": {
-    "@types/hapi__hapi": "^18.2.4",
-    "@types/hapi__inert": "^5.2.0",
-    "@types/hapi__vision": "^5.5.0",
     "@types/node": "^12.0.8",
-    "copyfiles": "^2.1.0",
+    "@types/request": "^2.48.1",
     "nodemon": "^1.19.1",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
   },
   "dependencies": {
-    "@hapi/hapi": "^18.3.1",
-    "@hapi/inert": "^5.2.0",
-    "@hapi/vision": "^5.5.2",
-    "dotenv": "^8.0.0",
-    "hapi-swagger": "^10.0.2"
+    "csv-parser": "^2.3.0",
+    "csv-writer": "^1.4.0",
+    "request": "^2.88.0"
   }
 }
