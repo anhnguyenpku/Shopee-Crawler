@@ -1,7 +1,7 @@
 {
     "_id": "shopee-v1",
     "startUrl": [
-        "https://banhang.shopee.vn/portal/product/list/all?page=[1-4]&size=99&order=popularity_dsc"
+        "https://banhang.shopee.vn/portal/product/list/active?page=[1-6]&size=99&stockMin=1"
     ],
     "selectors": [
         {
